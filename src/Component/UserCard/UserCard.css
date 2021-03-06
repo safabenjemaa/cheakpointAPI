@@ -1,0 +1,105 @@
+body {
+    min-height: 100vh;
+    background-color: #eee;
+    background-size: cover;
+    font-family: 'Cormorant', serif;
+    color: rgb(235, 85, 75);
+    background: linear-gradient(140deg, rgb(80, 39, 39), 50%, #58595a);
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    margin-top: 80px !important
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 7px
+}
+
+.small {
+    letter-spacing: 0.5px !important
+}
+
+.card-header img {
+    border: 5px solid rgb(77, 71, 71) !important
+}
+
+.outside {
+    position: inherit;
+    top: -50%
+}
+
+.card {
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 5px 0px rgb(173, 173, 182);
+    transition: 0.8s
+}
+
+.card-header {
+    border-radius: 20px !important
+}
+
+.card-footer {
+    border-radius: 20px !important
+}
+
+hr {
+    background-color: rgb(67, 67, 73);
+    border: 1px solid;
+    border-radius: 20px;
+    color: rgb(77, 78, 85);
+    height: 5px;
+    width: 70px !important
+}
+
+.bold {
+    font-weight: 500
+}
+
+.profile-pic {
+    margin-bottom: -5px !important
+}
+
+.quotes {
+    position: relative;
+    top: -10px
+}
+
+.quotes-down {
+    position: relative;
+    top: -4 px
+}
+
+.fa {
+    color: rgb(70, 70, 77);
+    cursor: pointer
+}
+
+.card-footer .fa {
+    font-size: 20px !important
+}
+
+.name {
+    margin-top: -50px !important
+}
+
+.container-fluid:hover .card:not(:hover) {
+    transform: scale(0.9)
+}
+
+@media (max-width: 1000px) {
+    .container-fluid:hover .card:not(:hover) {
+        transform: scale(1)
+    }
+}
+
+
+.card {
+
+    width: 60% !important;
+}
+
+.card{
+    width: 75% !important;
+}
